@@ -21,7 +21,6 @@ exports.initLocals = function(req, res, next) {
 	
 };
 
-
 /**
 	Fetches and clears the flashMessages before a view is rendered
 */
