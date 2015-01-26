@@ -7,8 +7,8 @@ var Quote = new keystone.List('Quote', {
 })
 
 Quote.add({
-  quote: { type: Types.Text, required: true, default: ""},
-  info: { type: Types.Text, required: true},
+  quote: { type: Types.Text, required: true, initial: true, default: ""},
+  info: { type: Types.Text, required: true, initial: true, default: ""},
   createdAt: { type: Types.Date, default: Date.now },
   published: { type: Types.Boolean, default: true }
 })
